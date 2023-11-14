@@ -1,0 +1,74 @@
+/* Custom styles for the blog */
+
+/* Prevent text selection for elements with the 'non-selectable' class */
+.non-selectable {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.bg-purple {
+    background-color: #cda95a; /* You can change this color code to your preferred shade of purple */
+}
+
+/* Responsive body background colors */
+body {
+    background-color: #f0e4d7; /* Light peach for mobile */
+}
+
+/******************
+Heading Styles
+******************/
+
+h1 {
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/******************
+Main Body Styles
+******************/
+
+p {
+    font-size: 1.5em;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/******************
+Footer Styles
+******************/
+
+footer {
+    height: 48px;
+    background-color: #e57d16;
+}
+
+footer p {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 6px 0px;
+}
+
+
+@media (min-width: 576px) {
+    body {
+        background-color: #c5ea9f; /* Light green for tablets */
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #8fbeeb; /* Light blue for small desktops */
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        background-color: #d7d7f0; /* Light purple for large desktops */
+    }
+}
