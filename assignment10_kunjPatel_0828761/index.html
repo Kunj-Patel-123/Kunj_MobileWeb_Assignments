@@ -9,8 +9,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="d-flex flex-column">
-            <div class="row mt-4">
+        <div class="d-flex flex-column flex-sm-column-reverse">
+      
+            <div class="row mt-4 mt-sm-0">
                 <div class="col-12">
                     <header class="text-center">
                         <h1>Kunj Patel</h1>
@@ -20,7 +21,7 @@
 
             <!-- Bootstrap Form with Order Class -->
             <div class="row mt-4">
-                <div class="col-12">
+                <div class="col-12 order-sm-0 order-md-1">
                     <form>
                         <div class="form-group">
                             <label for="productCategory">Product Category</label>
@@ -28,6 +29,7 @@
                                 <option>Smartphones</option>
                                 <option>Laptops</option>
                                 <option>Tablets</option>
+                                <option>Airpods</option>
                             </select>
                         </div>
 
@@ -44,9 +46,10 @@
                 </div>
             </div>
 
+            
             <!-- Bootstrap Table with Order Class -->
             <div class="row mt-4">
-                <div class="col-12">
+                <div class="col-12 order-sm-1 order-md-0">
                     <table class="table">
                         <thead>
                             <tr>
@@ -75,13 +78,14 @@
                     </table>
                 </div>
             </div>
+        
+<div class="row mt-4">
+    <div class="col-12 order-sm-2order-md-2">
+        <img src="smartphone.jpg" class="img-fluid d-block mx-auto" alt="Responsive Image">
+        <p class="caption text-center">Latest Smartphone Models</p>
+    </div>
+</div>
 
-            <div class="row mt-4 bottom-image">
-                <div class="col-12">
-                    <img src="smartphone.jpg" class="img-fluid d-block mx-auto" alt="Smartphone Image">
-                    <p class="caption text-center">Latest Smartphone Models</p>
-                </div>
-            </div>
         </div>
     </div>
 </body>
