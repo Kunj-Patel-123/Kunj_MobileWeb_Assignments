@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Information</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex flex-column">
+            <div class="row mt-4">
+                <div class="col-12">
+                    <header class="text-center">
+                        <h1>Kunj Patel</h1>
+                    </header>
+                </div>
+            </div>
+
+            <!-- Bootstrap Form with Order Class -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <form>
+                        <div class="form-group">
+                            <label for="productCategory">Product Category</label>
+                            <select class="form-control" id="productCategory">
+                                <option>Smartphones</option>
+                                <option>Laptops</option>
+                                <option>Tablets</option>
+                            </select>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="orderCheck">
+                            <label class="form-check-label" for="orderCheck">Would you like to order?</label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="quantityRange">Quantity</label>
+                            <input type="range" class="form-control-range" id="quantityRange">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Bootstrap Table with Order Class -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pixel 8</td>
+                                <td>$500</td>
+                                <td>10</td>
+                            </tr>
+                            <tr>
+                                <td>S23</td>
+                                <td>$750</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <td>Iphone 15</td>
+                                <td>$1000</td>
+                                <td>8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row mt-4 bottom-image">
+                <div class="col-12">
+                    <img src="smartphone.jpg" class="img-fluid d-block mx-auto" alt="Smartphone Image">
+                    <p class="caption text-center">Latest Smartphone Models</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
